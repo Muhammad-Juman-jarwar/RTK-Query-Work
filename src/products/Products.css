@@ -1,0 +1,25 @@
+.img {
+    width: 30%;
+    height: 50%;
+
+}
+
+img, svg {
+    vertical-align:none;
+}
+
+.card-header:first-child {
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+    background-color: orange;
+}
+
+.card-text:last-child {
+    font-size: 15px;
+    color: #595959;
+}
+@media (max-width: 768px) {
+    .img {
+        width: 50%;
+        /* height: 500%; */
+    }
+}
